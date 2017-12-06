@@ -13,3 +13,8 @@ Datasheets for the ATmega328 and for the 74HC595N are enclosed in the enclosed .
 
 # How it Works - Quick Rundown
 The LEDs are controlled by 2 shift registers that receive 16 bits from the programmed microcontroller. The shift registers then send out ON/OFF states to each layer of the cube’s cathodes before each corresponding layer anode is written to a LOW state in order to light the LEDs that were written to a LOW state. This process is rapidly repeated to give the impression that all LEDs in each layer are lit up simultaneously.
+
+# Applications Used
+
+  - **Arduino** - to create the LED cube sketch code
+  - **Eagle** - to create the PCB and schematic
